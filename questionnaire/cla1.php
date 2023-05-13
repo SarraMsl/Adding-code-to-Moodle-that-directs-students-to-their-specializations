@@ -308,7 +308,7 @@ ORDER BY moyenne DESC";
         
      
         
-    header("location:classement1.php");
+    header("location:classeme1.php");
 
 }
 
@@ -334,7 +334,7 @@ if(isset($_POST['submitd']))
 	 } else {
 		echo "Error: " . $sql . "
 " . pg_last_error($conn);}
-     header("location:classement1.php");
+     header("location:classeme1.php");
 	 pg_close($conn);
 	 
 }
@@ -354,7 +354,7 @@ $sql1 = "DELETE FROM mdl_tablequestionnaire_response";
 	 } else {
 		echo "Error: " . $sql . "," . $sql1 . "
 " . pg_last_error($conn);}
-     header("location:classement1.php");
+     header("location:classeme1.php");
 	 pg_close($conn);
 	 
 }

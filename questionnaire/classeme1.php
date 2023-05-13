@@ -5,7 +5,7 @@ global $PAGE, $OUTPUT, $USER;
 if (is_siteadmin()) {
     $PAGE->set_context(context_system::instance());
     $PAGE->set_title('Spécialité Dérigée de Licence');
-    $PAGE->navbar->add('Spécialité Dérigée de Licence', new moodle_url('/local/myhtmlpae/classement1.php'));
+    $PAGE->navbar->add('Spécialité Dérigée de Licence', new moodle_url('/local/myhtmlpae/classeme1.php'));
 
     echo $OUTPUT->header();
     echo $OUTPUT->heading('Spécialité Dérigée de Licence');
